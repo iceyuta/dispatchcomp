@@ -11,7 +11,7 @@ regions = [
     "Kansai", "Chugoku", "Shikoku", "Kyushu", "Okinawa"
 ]
 
-file_map = {region: f"{region} 1.csv" for region in regions}
+file_map = {region: f"{region}.csv" for region in regions}
 
 main_cols = ['E', 'F', 'G', 'H', 'J', 'R']  # LNG, Coal, Oil, Biomass, Thermal_Other, PS
 renew_cols = ['K', 'L', 'M']               # Solar, Wind, Hydro
